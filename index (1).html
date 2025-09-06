@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常德招商案例2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A3D91',
+                        secondary: '#1E88E5',
+                        accent: '#FFC107',
+                    },
+                    fontFamily: {
+                        sans: ['Helvetica', 'Arial', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+            .image-container {
+                @apply relative w-full overflow-hidden;
+            }
+            .nav-dot {
+                @apply w-2.5 h-2.5 rounded-full transition-all duration-300;
+            }
+            .nav-dot.active {
+                @apply w-8 bg-accent;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800 overflow-x-hidden">
+    <!-- 顶部导航栏 -->
+    <header class="fixed top-0 left-0 right-0 bg-primary/90 text-white z-50 shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-lg font-bold">常德招商案例2025</h1>
+            <button id="menuToggle" class="text-white focus:outline-none">
+                <i class="fa fa-bars text-xl"></i>
+            </button>
+        </div>
+        <!-- 导航菜单 -->
+        <nav id="menu" class="hidden bg-primary/95 px-4 pb-3">
+            <ul class="space-y-2">
+                <li><a href="#slide1" class="block py-2 hover:text-accent transition-colors">封面</a></li>
+                <li><a href="#slide2" class="block py-2 hover:text-accent transition-colors">常德市情</a></li>
+                <li><a href="#slide3" class="block py-2 hover:text-accent transition-colors">区位优势</a></li>
+                <li><a href="#slide4" class="block py-2 hover:text-accent transition-colors">招商案例1</a></li>
+                <li><a href="#slide5" class="block py-2 hover:text-accent transition-colors">招商案例2</a></li>
+                <li><a href="#slide6" class="block py-2 hover:text-accent transition-colors">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 主要内容区 -->
+    <main class="pt-14">
+        <!-- 图片滑块容器 -->
+        <div id="slider" class="relative">
+            <!-- 幻灯片1：封面 -->
+            <section id="slide1" class="image-container">
+                <img src="https://p9-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/f423c39748f14469a17d86959883dfa9.png~tplv-a9rns2rl98-24:720:720.png?rk3s=1fb89129&x-expires=1757750558&x-signature=r3nwrGUlT6MAcXnwnBt4rihWSPQ%3D" 
+                     alt="2025招商案例封面" 
+                     class="w-full h-auto object-cover">
+            </section>
+
+            <!-- 幻灯片2：常德市情 -->
+            <section id="slide2" class="image-container">
+                <img src="https://p9-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/ebbc4fd64e994b28b95906fe5951829b.png~tplv-a9rns2rl98-24:720:720.png?rk3s=1fb89129&x-expires=1757750558&x-signature=1LUp8w%2B6PzLHO4QAVeYPi3Ay60s%3D" 
+                     alt="常德市情介绍" 
+                     class="w-full h-auto object-cover">
+            </section>
+
+            <!-- 幻灯片3：区位优势 -->
+            <section id="slide3" class="image-container">
+                <img src="https://p9-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/9f9bd36fc2f94fd4877b335b81f77259.png~tplv-a9rns2rl98-24:720:720.png?rk3s=1fb89129&x-expires=1757750558&x-signature=y1oY%2BNRkCHmEgPX5zUfqfNRscAA%3D" 
+                     alt="常德区位优势地图" 
+                     class="w-full h-auto object-cover">
+            </section>
+
+            <!-- 幻灯片4：招商案例1 -->
+            <section id="slide4" class="image-container">
+                <img src="https://p9-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/5703d3025567460a82d02e7f003d4bf2.png~tplv-a9rns2rl98-24:720:720.png?rk3s=1fb89129&x-expires=1757750558&x-signature=emLuaZUliJrExBUJdGRtPy3FJyE%3D" 
+                     alt="招商案例介绍" 
+                     class="w-full h-auto object-cover">
+            </section>
+
+            <!-- 幻灯片5：招商案例2 -->
+            <section id="slide5" class="image-container">
+                <img src="https://p9-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/c48f7df61dfa4470ab84a86b44d43cfa.png~tplv-a9rns2rl98-24:720:720.png?rk3s=1fb89129&x-expires=1757750558&x-signature=lD7xU3jMa2E%2FwBiPoaGkq%2F%2BdTk4%3D" 
+                     alt="招商案例详细介绍" 
+                     class="w-full h-auto object-cover">
+            </section>
+
+            <!-- 幻灯片6：联系我们 -->
+            <section id="slide6" class="image-container">
+                <img src="https://p9-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/c6e42fdc3542407c91a14f4c08df9e10.png~tplv-a9rns2rl98-24:720:720.png?rk3s=1fb89129&x-expires=1757750558&x-signature=FobGLr2V3d7Wmt3YoAExLxxES6M%3D" 
+                     alt="联系方式和二维码" 
+                     class="w-full h-auto object-cover">
+            </section>
+        </div>
+
+        <!-- 底部导航点 -->
+        <div class="fixed bottom-6 left-0 right-0 flex justify-center space-x-2 z-40">
+            <button data-slide="1" class="nav-dot active bg-gray-400"></button>
+            <button data-slide="2" class="nav-dot bg-gray-400"></button>
+            <button data-slide="3" class="nav-dot bg-gray-400"></button>
+            <button data-slide="4" class="nav-dot bg-gray-400"></button>
+            <button data-slide="5" class="nav-dot bg-gray-400"></button>
+            <button data-slide="6" class="nav-dot bg-gray-400"></button>
+        </div>
+
+        <!-- 上下滑动按钮 -->
+        <button id="prevBtn" class="fixed left-1/2 -translate-x-1/2 top-20 bg-black/30 text-white p-2 rounded-full z-40 hover:bg-black/50 transition-colors">
+            <i class="fa fa-chevron-up"></i>
+        </button>
+        <button id="nextBtn" class="fixed left-1/2 -translate-x-1/2 bottom-20 bg-black/30 text-white p-2 rounded-full z-40 hover:bg-black/50 transition-colors">
+            <i class="fa fa-chevron-down"></i>
+        </button>
+    </main>
+
+    <script>
+        // 页面加载完成后执行
+        document.addEventListener('DOMContentLoaded', function() {
+            // 获取元素
+            const menuToggle = document.getElementById('menuToggle');
+            const menu = document.getElementById('menu');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const navDots = document.querySelectorAll('.nav-dot');
+            const slides = document.querySelectorAll('section[id^="slide"]');
+            let currentSlide = 1;
+            const totalSlides = slides.length;
+
+            // 菜单切换
+            menuToggle.addEventListener('click', function() {
+                menu.classList.toggle('hidden');
+            });
+
+            // 导航链接点击事件
+            document.querySelectorAll('#menu a').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const slideNumber = parseInt(targetId.replace('#slide', ''));
+                    goToSlide(slideNumber);
+                    menu.classList.add('hidden'); // 点击后关闭菜单
+                });
+            });
+
+            // 导航点点击事件
+            navDots.forEach(dot => {
+                dot.addEventListener('click', function() {
+                    const slideNumber = parseInt(this.getAttribute('data-slide'));
+                    goToSlide(slideNumber);
+                });
+            });
+
+            // 上一张按钮
+            prevBtn.addEventListener('click', function() {
+                currentSlide = currentSlide > 1 ? currentSlide - 1 : totalSlides;
+                goToSlide(currentSlide);
+            });
+
+            // 下一张按钮
+            nextBtn.addEventListener('click', function() {
+                currentSlide = currentSlide < totalSlides ? currentSlide + 1 : 1;
+                goToSlide(currentSlide);
+            });
+
+            // 滑动到指定幻灯片
+            function goToSlide(slideNumber) {
+                currentSlide = slideNumber;
+                const targetElement = document.getElementById(`slide${currentSlide}`);
+                
+                // 平滑滚动到目标元素
+                window.scrollTo({
+                    top: targetElement.offsetTop - 56, // 减去导航栏高度
+                    behavior: 'smooth'
+                });
+
+                // 更新导航点状态
+                updateNavDots();
+            }
+
+            // 更新导航点状态
+            function updateNavDots() {
+                navDots.forEach((dot, index) => {
+                    if (index + 1 === currentSlide) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+            }
+
+            // 监听滚动事件，更新当前幻灯片
+            window.addEventListener('scroll', function() {
+                const scrollPosition = window.scrollY + 100; // 加上偏移量
+
+                slides.forEach((slide, index) => {
+                    const slideTop = slide.offsetTop;
+                    const slideBottom = slideTop + slide.offsetHeight;
+
+                    if (scrollPosition >= slideTop && scrollPosition < slideBottom) {
+                        currentSlide = index + 1;
+                        updateNavDots();
+                    }
+                });
+            });
+
+            // 支持触摸滑动
+            let touchStartY = 0;
+            let touchEndY = 0;
+
+            document.addEventListener('touchstart', function(e) {
+                touchStartY = e.changedTouches[0].screenY;
+            }, false);
+
+            document.addEventListener('touchend', function(e) {
+                touchEndY = e.changedTouches[0].screenY;
+                handleSwipe();
+            }, false);
+
+            function handleSwipe() {
+                // 滑动距离超过50px才认为是有效滑动
+                if (touchStartY - touchEndY > 50) {
+                    // 向上滑动，下一张
+                    currentSlide = currentSlide < totalSlides ? currentSlide + 1 : 1;
+                    goToSlide(currentSlide);
+                } else if (touchEndY - touchStartY > 50) {
+                    // 向下滑动，上一张
+                    currentSlide = currentSlide > 1 ? currentSlide - 1 : totalSlides;
+                    goToSlide(currentSlide);
+                }
+            }
+
+            // 初始化显示第一张
+            goToSlide(1);
+        });
+    </script>
+</body>
+</html>
